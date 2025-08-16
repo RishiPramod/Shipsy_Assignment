@@ -65,4 +65,3 @@ To run the project locally, follow these steps:
 ## Deployment
 
 The application can be easily deployed to any platform that supports modern JavaScript applications, such as Vercel or Netlify. When deploying, make sure to set the environment variables for the Supabase URL and anon key in the deployment settings.
->>>>>>> 33b31b197e49ee5cdaaaad0d215346bd7b4c2b69
