@@ -43,6 +43,11 @@ const SignUp = () => {
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 dark:text-white">Create a new account</h2>
         </div>
+        <div className="text-center p-4 mb-4 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800" role="alert">
+          <p className="font-bold">For Recruiter Access:</p>
+          <p>Email: <strong>recruiter@example.com</strong></p>
+          <p>Password: <strong>password123</strong></p>
+        </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
